@@ -1,8 +1,8 @@
 # echo 'hxp{FLAG}' > flag.txt && docker build -t includer . && docker run -ti -p 8004:80 includer
-FROM debian:buster
+FROM debian:bullseye
 
 # 更换国内源以加速构建
-RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
+RUN sed -i 's/deb.debian.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list && \
     apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y \
