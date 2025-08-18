@@ -1,0 +1,217 @@
+version: '3.8'
+services:
+  level_nofile:
+    build:
+      context: ./Level  nofile
+    image: phpinclude_lab:level_nofile
+    ports:
+      - "8100:80"
+    restart: always
+
+  level_0:
+    build:
+      context: ./Level 0
+    image: phpinclude_lab:level_0
+    ports:
+      - "8101:80"
+    restart: always
+
+  level_1:
+    build:
+      context: ./Level 1
+    image: phpinclude_lab:level_1
+    ports:
+      - "8102:80"
+    restart: always
+
+  level_2:
+    build:
+      context: ./Level 2
+    image: phpinclude_lab:level_2
+    ports:
+      - "8103:80"
+    restart: always
+
+  level_3:
+    build:
+      context: ./Level 3
+    image: phpinclude_lab:level_3
+    ports:
+      - "8104:80"
+    restart: always
+
+  level_4:
+    build:
+      context: ./Level 4
+    image: phpinclude_lab:level_4
+    ports:
+      - "8105:80"
+    restart: always
+
+  level_5:
+    build:
+      context: ./Level 5
+    image: phpinclude_lab:level_5
+    ports:
+      - "8106:80"
+    restart: always
+
+  level_6:
+    build:
+      context: ./Level 6
+    image: phpinclude_lab:level_6
+    ports:
+      - "8107:80"
+    restart: always
+
+  level_7:
+    build:
+      context: ./Level 7
+    image: phpinclude_lab:level_7
+    ports:
+      - "8108:80"
+    restart: always
+
+  level_8:
+    build:
+      context: ./Level 8
+    image: phpinclude_lab:level_8
+    ports:
+      - "8109:80"
+    restart: always
+
+  level_9:
+    build:
+      context: ./Level 9
+    image: phpinclude_lab:level_9
+    ports:
+      - "8110:80"
+    restart: always
+
+  level_10:
+    build:
+      context: ./Level 10
+    image: phpinclude_lab:level_10
+    ports:
+      - "8111:80"
+    restart: always
+
+  level_11:
+    build:
+      context: ./Level 11
+    image: phpinclude_lab:level_11
+    ports:
+      - "8112:80"
+    restart: always
+
+  level_11_pre:
+    build:
+      context: ./Level 11 pre
+    image: phpinclude_lab:level_11_pre
+    ports:
+      - "8113:80"
+    restart: always
+
+  level_11_plus:
+    build:
+      context: ./Level 11 plus
+    image: phpinclude_lab:level_11_plus
+    ports:
+      - "8114:80"
+    restart: always
+
+  level_12:
+    build:
+      context: ./Level 12
+    image: phpinclude_lab:level_12
+    ports:
+      - "8115:80"
+    restart: always
+
+  level_13:
+    build:
+      context: ./Level 13
+    image: phpinclude_lab:level_13
+    ports:
+      - "8116:80"
+    restart: always
+
+  level_14:
+    build:
+      context: ./Level 14
+    image: phpinclude_lab:level_14
+    ports:
+      - "8117:80"
+    restart: always
+
+  level_15:
+    build:
+      context: ./Level 15
+    image: phpinclude_lab:level_15
+    ports:
+      - "8118:80"
+    restart: always
+
+  level_16:
+    build:
+      context: ./Level 16
+    image: phpinclude_lab:level_16
+    ports:
+      - "8119:80"
+    restart: always
+
+  level_17:
+    build:
+      context: ./Level 17
+    image: phpinclude_lab:level_17
+    ports:
+      - "8120:80"
+    restart: always
+
+  level_18:
+    build:
+      context: ./Level 18
+    image: phpinclude_lab:level_18
+    ports:
+      - "8121:80"
+    restart: always
+
+  level_19:
+    build:
+      context: ./Level 19
+    image: phpinclude_lab:level_19
+    ports:
+      - "8122:80"
+    restart: always
+
+  level_20:
+    build:
+      context: ./Level 20
+    image: phpinclude_lab:level_20
+    ports:
+      - "8123:80"
+    restart: always
+
+  level_21:
+    build:
+      context: ./Level 21
+    image: phpinclude_lab:level_21
+    ports:
+      - "8124:80"
+    restart: always
+
+  level_22:
+    build:
+      context: ./Level 22
+    image: phpinclude_lab:level_22
+    ports:
+      - "8125:80"
+    restart: always
+
+  level_23:
+    build:
+      context: ./Level 23
+    image: phpinclude_lab:level_23
+    ports:
+      - "8126:80"
+    restart: always
